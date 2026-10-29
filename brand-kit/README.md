@@ -26,4 +26,4 @@
 The lime skewed bar (skewX -20 degrees) before ELOVA. The profile icon is a white E over the same bar.
 
 ## Bio line
-Sports news, records and stories. New posts at 2 PM, 6 PM and 10 PM (PKT).
+The biggest sports stories, records and numbers. Cricket, football, F1, tennis and more.
