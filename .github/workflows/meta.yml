@@ -1,0 +1,16 @@
+name: meta
+on:
+  push:
+    branches: [assets]
+    paths: ['.github/workflows/meta.yml']
+permissions:
+  contents: write
+jobs:
+  meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          curl -sS -G -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" "https://commons.wikimedia.org/w/api.php" --data-urlencode "action=query" --data-urlencode "prop=imageinfo" --data-urlencode "iiprop=extmetadata" --data-urlencode "iiextmetadatafilter=Artist|LicenseShortName|DateTimeOriginal" --data-urlencode "format=json" --data-urlencode "titles=File:Mahendra_Singh_Dhoni_batting.JPG|File:Sachin_Tendulkar_1.jpg|File:Donald_Bradman_Sam_Hood_1932_(retouched).jpg|File:BrianLaraUkexpatCropped.jpg|File:Jahangir_Khan-2010-20-09.jpg|File:Shoaib_Akhtar_(13927458981).jpg|File:Muttiah_Muralitharan.jpg|File:Novak_Djokovic_(8155423097).jpg|File:Lionel-Messi-Argentina-2022-FIFA-World-Cup.jpg|File:Michael_Phelps_Rio_2016_(cropped).jpg" -o src/meta.json
+          git config user.name elova-bot; git config user.email bot@users.noreply.github.com
+          git add src; git commit -m meta || true; git push
