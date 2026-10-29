@@ -23,6 +23,7 @@ Cut out with: python3 /home/claude/scripts/cut.py <name>  (expects /home/claude/
 Every photo needs a credit line: author + licence. Never use agency/news photos or AI images of real people.
 
 ## Rules
+- GM's favourite look: part of the player (bat, racket, glove, arm, ball, helmet) sits IN FRONT of the big lime number, like the Lara 400* post (cutout layer is above the number). Do this on every comp() post where it looks natural: place the cutout so an object or limb overlaps roughly a quarter of the number. Never hide the face, never make the number unreadable, never force a strange crop. Check the render.
 - Weekly batch = recent finished events (last 7 days) and hooks for events happening that day. History is parked in main/parked/.
 - No em dashes. Plain direct English. Sport + competition in the top-right tag, date line above the headline, opponent named.
 - Caption: hook line, 1 to 2 factual sentences with date and venue, optional question, 3 to 4 hashtags ending #ElovaSports.
