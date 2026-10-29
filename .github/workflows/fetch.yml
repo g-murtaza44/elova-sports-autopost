@@ -1,0 +1,28 @@
+name: fetch
+on:
+  push:
+    branches: [assets]
+    paths: ['.github/workflows/fetch.yml']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p src
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/dhoni.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mahendra_Singh_Dhoni_batting.JPG/960px-Mahendra_Singh_Dhoni_batting.JPG" || echo "fail dhoni"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/sachin.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sachin_Tendulkar_1.jpg/960px-Sachin_Tendulkar_1.jpg" || echo "fail sachin"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/bradman.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Donald_Bradman_Sam_Hood_1932_%28retouched%29.jpg/1280px-Donald_Bradman_Sam_Hood_1932_%28retouched%29.jpg" || echo "fail bradman"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/lara.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BrianLaraUkexpatCropped.jpg/1280px-BrianLaraUkexpatCropped.jpg" || echo "fail lara"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/murali.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Murali%27s_run-up.jpg/500px-Murali%27s_run-up.jpg" || echo "fail murali"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/jahangir.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Jahangir_Khan-2010-20-09.jpg/1280px-Jahangir_Khan-2010-20-09.jpg" || echo "fail jahangir"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/head.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Travis_head_boxing_day.jpg/1280px-Travis_head_boxing_day.jpg" || echo "fail head"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/djokovic.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Novak_Djokovic_%288155423097%29.jpg/1280px-Novak_Djokovic_%288155423097%29.jpg" || echo "fail djokovic"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/shoaib2.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Shoaib_Akhtar_%2813927458981%29.jpg/1280px-Shoaib_Akhtar_%2813927458981%29.jpg" || echo "fail shoaib2"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/muralib.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Muttiah_Muralitharan.jpg/1280px-Muttiah_Muralitharan.jpg" || echo "fail muralib"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/lara_lap.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Brian_Lara_lap_of_honour_%28cropped%29.jpg/500px-Brian_Lara_lap_of_honour_%28cropped%29.jpg" || echo "fail lara_lap"; sleep 3
+          ls -la src
+          git config user.name elova-bot; git config user.email bot@users.noreply.github.com
+          git add src; git commit -m "fetched photos" || true; git push
