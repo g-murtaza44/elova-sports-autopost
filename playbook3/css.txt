@@ -1,0 +1,16 @@
+<style>*{{margin:0;padding:0;box-sizing:border-box}}
+body{{width:1080px;height:1350px;background:{NAVY};color:{W};font-family:'Inter';position:relative;overflow:hidden}}
+.bg{{position:absolute;inset:0}}
+.fade{{position:absolute;left:0;right:0;bottom:0;height:820px;background:linear-gradient(to bottom,rgba(7,22,14,0) 0%,rgba(7,22,14,.85) 35%,{NAVY} 60%)}}
+.logo{{position:absolute;top:56px;left:60px;display:flex;align-items:center;gap:14px;font-weight:900;font-size:30px;letter-spacing:4px;z-index:3}}
+.logo i{{width:44px;height:14px;background:{LIME};display:block;transform:skewX(-20deg)}}
+.sport{{position:absolute;top:56px;right:60px;z-index:3;border:3px solid {W};padding:10px 20px;font-weight:800;font-size:24px;letter-spacing:3px;border-radius:40px}}
+.txt{{position:absolute;left:60px;right:60px;bottom:150px;text-align:center;z-index:3}}
+.date{{font-weight:800;font-size:30px;letter-spacing:4px;margin-bottom:26px}}
+.hl{{font-family:'Inter Display';font-weight:900;font-size:76px;line-height:1.16}}
+.hl b{{background:{LIME};color:{NAVY};padding:0 12px;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:900}}
+.icons{{position:absolute;bottom:58px;left:0;right:0;display:flex;justify-content:center;gap:26px;z-index:3}}
+.icons span{{width:52px;height:52px;border-radius:50%;background:{W};color:{NAVY};display:flex;align-items:center;justify-content:center;font-weight:900;font-size:24px}}
+.swipe{{position:absolute;bottom:62px;right:60px;z-index:4;background:{LIME};color:{NAVY};font-weight:900;font-size:24px;letter-spacing:3px;padding:10px 22px;border-radius:30px}}
+.ph{{position:absolute;top:150px;left:50%;transform:translateX(-50%);z-index:2;border:3px dashed rgba(255,255,255,.7);padding:12px 22px;font-weight:800;font-size:22px;letter-spacing:3px;border-radius:8px;background:rgba(7,22,14,.5)}}
+</style>

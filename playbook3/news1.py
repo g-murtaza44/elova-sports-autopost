@@ -1,0 +1,12 @@
+N={}
+N["2026-11-01-1"]=comp('pitch.jpg',"FOOTBALL · BALLON D'OR","26 OCTOBER 2026 · LONDON","73","goals last season. Harry Kane wins the <b>Ballon d'Or</b>, England's first winner since 2001",'kane_cut.png',"Werner100359, CC BY-SA 4.0",h=1000,right=-140,top=330,numsize=240)
+N["2026-11-01-3"]=full('antonelli_car.jpg','45% center',"F1 · MEXICO CITY GP","RACE TONIGHT · 1 AM PKT","9","wins this season. Kimi Antonelli needs just <b>2 points</b> in Mexico City to be world champion","Liauzh, CC BY 4.0 (Mercedes, 2026)")
+N["2026-11-02-1"]=comp('goal.jpg',"FOOTBALL · LA LIGA","25 OCTOBER 2026 · CAMP NOU","88'","Mbappé scores twice, the winner in the 88th minute, as Real Madrid beat <b>Barcelona</b> 2-1",'mbappe_cut.png',"Jester77aa08, CC BY-SA 4.0",h=1000,right=-10,top=300,numsize=240)
+N["2026-11-02-3"]=comp('pitch.jpg',"FOOTBALL · BALLON D'OR","26 OCTOBER 2026 · LONDON","3","Alexia Putellas wins her <b>third Ballon d'Or</b>, after 2021 and 2022",'putellas_cut.png',"EL Loko Foto, CC BY 4.0",h=980,right=-60,top=300)
+N["2026-11-03-1"]=bigstat(img(P+'cfield.jpg','center','filter:brightness(.6)'),"CRICKET · ODI","22 OCTOBER 2026 · RAWALPINDI","430","Sri Lanka chase down 430 against <b>England</b>, the second-highest chase in ODI history")
+N["2026-11-03-2"]=comp('delhi.jpg',"CRICKET · ODI","22 OCTOBER 2026 · RAWALPINDI","202","Harry Brook hits England's <b>first ODI double hundred</b>, and still ends up losing",'brook_cut.png',"Dave Morton, public domain",h=960,right=90,top=330,bgpos='center top')
+N["2026-11-03-3"]=comp('pitch.jpg',"FOOTBALL · PREMIER LEAGUE","24 OCTOBER 2026 · VILLA PARK","2-1","Nicolas Jackson scores twice as Aston Villa end <b>Man City's</b> perfect start",'njackson_cut.png',"Bryan Berlin, CC BY-SA 4.0",h=1040,right=60,top=270,numsize=240)
+N["2026-11-04-1"]=bigstat(img(P+'adelaide.jpg','center top','filter:brightness(.6)'),"CRICKET · T20I","27 OCTOBER 2026 · WELLINGTON","13.2","overs. Abhishek Sharma's 35-ball hundred helps India chase 199 and win the series in <b>New Zealand</b>")
+N["2026-11-04-2"]=cover(img(P+'cfield.jpg','center','filter:brightness(.75)'),"CRICKET · TEST","22 OCTOBER 2026 · GQEBERHA","Bavuma hits 179 as South Africa beat <b>Australia</b> by an innings and 31 runs to level the series <b>1-1</b>")
+N["2026-11-04-3"]=panel('duckett.jpg',"CRICKET · ODI","29 OCTOBER 2026 · LAHORE","Ben Duckett smashes <b>167 off 132 balls</b> as England beat Sri Lanka by 55 runs","Charltonkyle, CC BY-SA 4.0 (Duckett, 2016)",ph=720,pos='center 30%',num="167")
+posts.clear(); posts.update(N)
