@@ -1,4 +1,6 @@
-# Elova Sports autopost
+# Elova Sports News (autopost)
+
+The daily latest-news line of Elova Sports: 3 posts a day about the newest finished sports results.
 
 Make.com posts 3 times a day (Pakistan time). Each run picks the files for today's date and the current slot.
 
