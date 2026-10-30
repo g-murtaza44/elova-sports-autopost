@@ -1,4 +1,4 @@
-# Elova Sports engine
+# Elova Sports engine (renders Elova Sports News, the 3-a-day latest-news posts)
 
 Renders the posts for the `main` branch (images/ + captions/), which Make.com posts at 14:00, 18:00, 22:00 PKT.
 
