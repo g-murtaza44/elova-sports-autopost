@@ -1,5 +1,6 @@
 name: records-hour-copies
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths: ['records/*-1.png','records/*-2.png']
