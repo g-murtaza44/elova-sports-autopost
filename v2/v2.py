@@ -31,7 +31,7 @@ def post(bg,cut,num,hl,meta,cr,tag,out,cutstyle,numstyle,bgf='brightness(.55)'):
         pg.set_content(f"<html><head><style>{CSS}</style></head><body>{h}</body></html>");pg.wait_for_timeout(300);pg.screenshot(path=out);br.close()
 if __name__=='__main__':
     S='/home/claude/enginerepo/v2/';C='/home/claude/commons/'
-    post(S+'crowd.jpg','/home/claude/enginerepo/commons/brook_v2.png','202',
+    post(S+'stadium_crowd.jpg','/home/claude/enginerepo/commons/brook_v2.png','202',
      "Harry Brook Hits England's First ODI <em>Double Hundred</em>, And Still Loses",
      f"{flag('gb-eng')} ENGLAND <span style='color:#C8F031'>V</span> SRI LANKA {flag('lk')}",
      "Photos: Dave Morton (PD), Damien Tait / Unsplash","CRICKET · ODI",'/tmp/sample-brook.png',
