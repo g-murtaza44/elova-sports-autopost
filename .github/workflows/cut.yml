@@ -1,0 +1,18 @@
+name: cut
+on:
+  push:
+    branches: [assets]
+    paths: ['tools/cut_list.txt']
+permissions:
+  contents: write
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q "rembg[cpu]" pillow
+      - run: python3 tools/cut.py
+      - run: |
+          git config user.name elova-bot; git config user.email bot@users.noreply.github.com
+          git pull -q --rebase origin assets || true
+          git add cut; git commit -m "cutouts" || true; git push
