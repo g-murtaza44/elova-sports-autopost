@@ -7,7 +7,7 @@ CSS=ff('H','archivo-black/files/archivo-black-latin-400-normal.woff2',400)+ff('S
 *{margin:0;padding:0;box-sizing:border-box}body{width:1080px;height:1350px;overflow:hidden;background:#06130C;color:#fff;position:relative}
 .bg{position:absolute;inset:0;background-size:cover}
 .logo{position:absolute;top:48px;left:52px;display:flex;align-items:center;gap:16px;z-index:9}
-.logo .m{width:84px;height:84px;border-radius:20px;background:#C8F031;color:#06130C;font-family:H;font-size:58px;display:flex;align-items:center;justify-content:center}
+.logo .m{width:84px;height:84px;border-radius:14px;background:#06130C;border:2px solid rgba(255,255,255,.15);position:relative;color:#fff;font-family:H;font-size:50px;line-height:1;display:flex;justify-content:center;padding-top:10px}.logo .m:after{content:'';position:absolute;left:18px;right:16px;bottom:14px;height:10px;background:#C8F031;transform:skewX(-25deg)}
 .logo .t{font-family:H;font-size:44px;line-height:.9}.logo .t span{display:block;font-family:S;font-weight:800;font-size:25px;letter-spacing:9px;color:#C8F031;margin-top:6px}
 .tag{position:absolute;top:66px;right:52px;font-family:S;font-weight:800;font-size:26px;letter-spacing:4px;background:rgba(0,0,0,.55);border:2px solid #C8F031;padding:10px 20px;border-radius:40px;z-index:9}
 .hl{position:absolute;left:56px;right:56px;bottom:170px;font-family:H;font-size:70px;line-height:1.08;text-shadow:0 4px 24px rgba(0,0,0,.6);z-index:8}
