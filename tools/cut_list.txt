@@ -1,8 +1,1 @@
-r_russell.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_russell.jpg
-r_dossantos.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_dossantos.jpg
-r_duplantis.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_duplantis.jpg
-r_tharp.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_tharp.jpg
-r_kerr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_kerr.jpg
-r_kejelcha.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_kejelcha.jpg
-r_douglass.webp https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_douglass.webp
-r_curtis.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/found/sara_curtis_swimmer_1.jpg
+r_wanyonyi.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/r_wanyonyi.jpg
