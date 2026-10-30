@@ -23,6 +23,8 @@ Cut out with: python3 /home/claude/scripts/cut.py <name>  (expects /home/claude/
 Every photo needs a credit line: author + licence. Never use agency/news photos or AI images of real people.
 
 ## Rules
+- FACES FIRST (GM's request): every Elova Sports News post should show the real person the story is about whenever a free-licence photo exists. Search Commons with 2 to 3 different queries (name + club, name + national team, name + sport) before falling back to a scene-only layout. A team story uses its captain, scorer or star player.
+- FLAGS (GM's request): when a story involves national teams or a player's country, add flags with flag(cc) or vs(cc1, 'TEAM1', cc2, 'TEAM2') from people.py (flag-icons, MIT; codes: pk, in, lk, au, gb-eng, za, nz, us, br, ar, fr, es ...). Typical place: the date line, e.g. date=vs('pk','PAKISTAN','lk','SRI LANKA'). For club stories, use the player's country flag only if it adds meaning. Never use club or league logos.
 - GM's favourite look: part of the player (bat, racket, glove, arm, ball, helmet) sits IN FRONT of the big lime number, like the Lara 400* post (cutout layer is above the number). Do this on every comp() post where it looks natural: place the cutout so an object or limb overlaps roughly a quarter of the number. Never hide the face, never make the number unreadable, never force a strange crop. Check the render.
 - Weekly batch = recent finished events (last 7 days) and hooks for events happening that day. History is parked in main/parked/.
 - No em dashes. Plain direct English. Sport + competition in the top-right tag, date line above the headline, opponent named.

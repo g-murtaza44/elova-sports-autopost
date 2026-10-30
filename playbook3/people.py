@@ -37,3 +37,9 @@ posts["2026-11-06-3"]=comp('cfield.jpg',"CRICKET · RECORDS","22 FEBRUARY 2003 �
 posts["2026-11-08-1"]=panel('muralib.jpg',"CRICKET · TEST","22 JULY 2010 · GALLE","Muttiah Muralitharan takes his <b>800th Test wicket</b> with his final ball in Tests","Rae Allen, CC BY 2.0 (Murali bowling, 2006)",ph=720,pos='35% center',num="800")
 posts["2026-11-08-3"]=panel('dhoni.jpg',"CRICKET · ODI","2 APRIL 2011 · MUMBAI","India beat <b>Sri Lanka</b> by 6 wickets as Dhoni finishes it <b>with a six</b>","Dee03, CC BY-SA 3.0 (Dhoni batting)",ph=760,pos='30% center')
 posts["2026-11-01-1"]=full('pele.jpg','40% 15%',"FOOTBALL · WORLD CUP","1958 · 1962 · 1970","3","Pelé is still the only player to win <b>three World Cups</b>","public domain (Mexico City, 1970)")
+# Country flags (flag-icons, MIT). cc = ISO code: pk, in, lk, au, gb-eng, gb-sct, gb-wls, za, nz, us, br, ar, fr, es, it, de ...
+FLAGS='/home/claude/fonts/node_modules/flag-icons/flags/4x3/'
+def flag(cc,h=40):
+    return f'<img src="data:image/svg+xml;base64,{_bb.b64encode(open(FLAGS+cc+".svg","rb").read()).decode()}" style="height:{h}px;width:{int(h*4/3)}px;border-radius:5px;vertical-align:middle;box-shadow:0 2px 8px rgba(0,0,0,.5);margin:0 10px;position:relative;top:-3px">'
+def vs(cc1,t1,cc2,t2,h=40):
+    return f'{flag(cc1,h)}{t1} <span style="color:#C8F031">V</span> {t2}{flag(cc2,h)}'
