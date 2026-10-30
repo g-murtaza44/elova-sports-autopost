@@ -1,0 +1,8 @@
+N={}
+N["2026-10-30-1"]=comp('baseball_a.jpg',"BASEBALL · WORLD SERIES","28 OCTOBER 2026 · ST. PETERSBURG","1ST","World Series title for the <b>Brewers</b>. William Contreras is MVP as Milwaukee beat the Rays 4-1",'contreras_cut.png',"Sewageboy, CC BY-SA 4.0 (2024)",h=1060,right=-40,top=110,numsize=250)
+N["2026-10-30-2"]=full('fleetwood_highbury.jpg','center',"FOOTBALL · CARABAO CUP","27 OCTOBER 2026 · HIGHBURY STADIUM, FLEETWOOD","5-3","League Two Fleetwood knock out champions <b>Arsenal</b> on penalties after a 1-1 draw","Tangerines, public domain (Highbury Stadium)",extra='filter:brightness(.7)')
+N["2026-10-30-3"]=bigstat(img(P+'cfield.jpg','center','filter:brightness(.6)'),"CRICKET · ODI TRI-SERIES","27 OCTOBER 2026 · LAHORE","5/34","Madushanka bowls Pakistan out for 110 as <b>Sri Lanka</b> win by 8 wickets. Final tomorrow")
+N["2026-10-31-1"]=comp('delhi.jpg',"CRICKET · ODI TRI-SERIES","TODAY · GADDAFI STADIUM · 1 PM PKT","1-1","Pakistan face <b>Sri Lanka</b> in today's final. One win each so far",'babar_cut.png',"Nazly Ahmed, CC BY-SA 4.0 (Colombo, 2023)",h=900,right=40,top=300,numsize=250,bgpos='center top')
+N["2026-10-31-2"]=comp('../commons/luka.jpg',"BASKETBALL · NBA","25 OCTOBER 2026 · LAKERS v JAZZ","52","Luka Doncic scores 52 as the Lakers beat the <b>Utah Jazz</b> 132-123",'luka_cut.png',"Erik Drost, CC BY 4.0 (2026)",h=1080,right=120,top=200,numsize=280,bgfilter='filter:blur(14px) brightness(.4);transform:scale(1.1)')
+N["2026-10-31-3"]=bigstat(img(P+'pitch.jpg','center','filter:brightness(.6)'),"FOOTBALL · SERIE A","28 OCTOBER 2026 · SAN SIRO","3","Samuel Mbangula hits a hat-trick as Bologna beat <b>AC Milan</b> 4-2")
+posts.clear(); posts.update(N)
