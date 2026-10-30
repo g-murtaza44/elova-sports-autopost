@@ -36,3 +36,10 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Cutouts: do NOT use local rembg u2net (soft, odd edges). Add "name.jpg URL" lines to tools/cut_list.txt on the assets branch and push; workflow cut.yml runs BiRefNet (portrait + general) on GitHub and commits cut/<name>_birefnet-*.png. Pull, erase other people/objects with PIL if needed, check on a dark background.
 - Prefer action/celebration photos over posed ones; always check the original full photo, the best moment (raised bat etc.) may be outside the old crop.
 - No AI images of real, named athletes.
+- NO GOOD PLAYER PHOTO? Never post an odd/blurry cutout. Fallback order: (1) real Unsplash photo of an anonymous player seen from behind / celebrating / silhouette (search "cricketer from behind", "football player celebrating back", "tennis player back stadium"); (2) AI image of a NON-identifiable player seen from BEHIND, celebrating, plain kit with no names, numbers, logos or faces (generate via the assets branch ai.yml workflow, Pollinations flux, nologo=true, 1080x1350). If AI is used, put "Image is AI generated and is just for reference" small on the image and at the end of the caption. Never an AI face or likeness of a real person.
+- TOKEN BUDGET: GM's Claude credits are limited. Be efficient: no re-renders unless something is actually broken, look at each final PNG once, keep research to what the posts need, no long reports.
+
+## ELOVA SPORTS RECORDS (2 posts/day, weekly batch)
+- Files: main/records/YYYY-MM-DD-1.png/.txt (12:00 PKT) and -2 (20:00 PKT).
+- Content: world records recently broken (most recent first: last weeks/months; athletics, swimming, cricket, football, F1, weightlifting, esports-free). Verify each record in a reliable source. Big number = the record (time, score, count).
+- Same STYLE V2 template, tag pill e.g. "WORLD RECORD · ATHLETICS". Same photo and AI fallback rules.
