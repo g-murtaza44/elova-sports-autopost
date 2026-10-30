@@ -12,7 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           mkdir -p src
-          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/contreras_hi.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/William_Contreras_1_61824.jpg/1920px-William_Contreras_1_61824.jpg" || echo "fail contreras"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_russell.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Masai_Russell_victory_lap_at_the_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition._04.jpg/1920px-Masai_Russell_victory_lap_at_the_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition._04.jpg" || echo "fail r_russell.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_dossantos.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Alison_Dos_Santos_2022.jpg/1920px-Alison_Dos_Santos_2022.jpg" || echo "fail r_dossantos.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_wanyonyi.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Emmanuel_Wanyonyi_wins_the_800_meter_race_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition_01.jpg/2560px-Emmanuel_Wanyonyi_wins_the_800_meter_race_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition_01.jpg" || echo "fail r_wanyonyi.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_duplantis.jpg "https://upload.wikimedia.org/wikipedia/commons/4/4e/Armand_Duplantis_in_2019.jpg" || echo "fail r_duplantis.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_tharp.jpg "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ja%27Kobe_Tharp_at_the_2025_NCAA_Division_1_Outdoor_Championships_05.jpg" || echo "fail r_tharp.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_douglass.webp "https://upload.wikimedia.org/wikipedia/commons/4/40/Kate_Douglass_at_the_2024_2024_Summer_Olympics_in_Paris.webp" || echo "fail r_douglass.webp"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_kerr.jpg "https://upload.wikimedia.org/wikipedia/commons/4/43/2019_Millrose_Games_%2840204870493%29_%28cropped2%29.jpg" || echo "fail r_kerr.jpg"; sleep 3
+          curl -sSfL -A "ElovaSportsBot/1.0 (ghulammurtaza.wa@gmail.com)" -o src/r_kejelcha.jpg "https://upload.wikimedia.org/wikipedia/commons/9/9a/Yomif_Kejelcha_2023_%28cropped%29.jpg" || echo "fail r_kejelcha.jpg"; sleep 3
 
           ls -la src
           git config user.name elova-bot; git config user.email bot@users.noreply.github.com
