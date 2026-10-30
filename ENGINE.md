@@ -29,3 +29,10 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Weekly batch = recent finished events (last 7 days) and hooks for events happening that day. History is parked in main/parked/.
 - No em dashes. Plain direct English. Sport + competition in the top-right tag, date line above the headline, opponent named.
 - Caption: hook line, 1 to 2 factual sentences with date and venue, optional question, 3 to 4 hashtags ending #ElovaSports.
+
+## STYLE V2 (DEFAULT from 31 Oct 2026, GM loves it)
+- Use v2/v2.py post(bg, cutout, num, headline, meta, credit, tag, out, cutstyle, numstyle, bgf) for every News post. Older comp()/bigstat() layouts are retired.
+- Look: full-bleed dramatic stadium/crowd photo (v2/stadium_crowd.jpg or a fresh Unsplash night/crowd shot), big lime number, real player cutout in front of the number (bat/arm overlapping, Lara 400* idea), Title Case headline with key words in <em> (lime), flags via meta line, big logo top-left, sport pill top-right.
+- Cutouts: do NOT use local rembg u2net (soft, odd edges). Add "name.jpg URL" lines to tools/cut_list.txt on the assets branch and push; workflow cut.yml runs BiRefNet (portrait + general) on GitHub and commits cut/<name>_birefnet-*.png. Pull, erase other people/objects with PIL if needed, check on a dark background.
+- Prefer action/celebration photos over posed ones; always check the original full photo, the best moment (raised bat etc.) may be outside the old crop.
+- No AI images of real, named athletes.
