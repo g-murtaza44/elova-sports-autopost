@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['records/*-1.png','records/*-2.png','records/*-1.txt','records/*-2.txt']
+    paths: ['records/*-1.png','records/*-2.png','records/*-1.txt','records/*-2.txt','images/*-1.png','images/*-2.png','images/*-3.png']
 permissions:
   contents: write
 jobs:
@@ -17,5 +17,9 @@ jobs:
           for f in *-2.png; do [ -e "$f" ] && cp "$f" "${f%-2.png}-h20.png"; done
           for f in *-1.txt; do [ -e "$f" ] && cp "$f" "${f%-1.txt}-h12.txt"; done
           for f in *-2.txt; do [ -e "$f" ] && cp "$f" "${f%-2.txt}-h20.txt"; done
+          cd ../images
+          for f in *-1.png; do [ -e "$f" ] && cp "$f" "${f%-1.png}-h14.png"; done
+          for f in *-2.png; do [ -e "$f" ] && cp "$f" "${f%-2.png}-h18.png"; done
+          for f in *-3.png; do [ -e "$f" ] && cp "$f" "${f%-3.png}-h22.png"; done
           cd ..; git config user.name elova-bot; git config user.email bot@users.noreply.github.com
-          git add records; git commit -m "hour copies for Buffer" || true; git push
+          git add records images; git commit -m "hour copies for Buffer" || true; git push
