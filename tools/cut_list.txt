@@ -1,1 +1,3 @@
-fakhar_ai.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/fakhar_ai.jpg
+harmer.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/harmer.jpg
+wemby.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/wemby.jpg
+rogers.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/rogers.jpg
