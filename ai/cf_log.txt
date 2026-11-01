@@ -1,0 +1,2 @@
+cf_test @cf/leonardo/lucid-origin ok
+cf_test @cf/black-forest-labs/flux-1-schnell ok
