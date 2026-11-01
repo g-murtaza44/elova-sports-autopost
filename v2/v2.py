@@ -31,10 +31,10 @@ def post(bg,cut,num,hl,meta,cr,tag,out,cutstyle,numstyle,bgf='brightness(.55)'):
 <div style="position:absolute;left:0;right:0;bottom:0;height:720px;background:linear-gradient(transparent,rgba(6,19,12,.85) 40%,#06130C 78%)"></div>
 <div style="position:absolute;inset:0;opacity:.13;mix-blend-mode:overlay;background-image:url(&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>&quot;);z-index:7"></div><div class="logo"><div class="m">E</div><div class="t">ELOVA<span>SPORTS</span></div></div><div class="tag">{tag}</div>
 <div class="hl" id="hl">{hl}</div><div class="meta" id="meta">{meta}</div>{ICONS}<div class="cr">{cr}</div>
-<script>var h=document.getElementById('hl');document.getElementById('meta').style.bottom=(150+h.offsetHeight+22)+'px';</script>"""
+<script>function _m(){{var h=document.getElementById('hl');document.getElementById('meta').style.bottom=(150+h.offsetHeight+22)+'px'}}_m();document.fonts.ready.then(_m);</script>"""
     with sync_playwright() as p:
         br=p.chromium.launch();pg=br.new_page(viewport={'width':1080,'height':1350})
-        pg.set_content(f"<html><head><style>{CSS}</style></head><body>{h}</body></html>");pg.wait_for_timeout(300);pg.screenshot(path=out);br.close()
+        pg.set_content(f"<html><head><style>{CSS}</style></head><body>{h}</body></html>");pg.wait_for_timeout(300);pg.evaluate('document.fonts.ready.then(_m)');pg.wait_for_timeout(100);pg.screenshot(path=out);br.close()
 if __name__=='__main__':
     S='/home/claude/enginerepo/v2/';C='/home/claude/commons/'
     post(S+'stadium_crowd.jpg','/home/claude/enginerepo/commons/brook_v2.png','202',
