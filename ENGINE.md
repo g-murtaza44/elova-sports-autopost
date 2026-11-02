@@ -41,6 +41,13 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Shirt numbers: verified only (Arafat Minhas 90 per Wikipedia; Fakhar Zaman 39). If a number cannot be verified, put the surname only.
 - Other teams: research the current kit colours before prompting, then add a line here.
 
+
+## HARD RULES (GM, 3 Nov 2026) - check EVERY post before pushing, News and Records alike
+1. LOGO: only the v2 logo (dark square with white E and lime bar, plus "ELOVA / SPORTS" text) exactly as v2/v2.py draws it. Never use the old playbook3 layouts (bigstat, listcard, rulecard, comp, full, panel, cover) because they carry the old logo. Every post, including lists and rules cards, is made with v2/v2.py.
+2. SOCIAL ICONS: the 4 white icons (Facebook, Instagram, X, LinkedIn) at the bottom of EVERY post. post() adds them; never remove or hide them.
+3. BACKGROUND MATCHES THE SPORT. Never put a non-cricket story on a cricket ground. v2/stadium_crowd.jpg is CRICKET ONLY. Use v2/bg/<sport>.jpg: athletics (running track), swimming (pool), football (football stadium/pitch), cricket, f1 (race circuit), tennis (court), basketball (arena court), baseball, weightlifting (gym/platform), cycling (velodrome/road), golf, rugby, boxing/mma. If the file for a sport is missing, get a dramatic free Unsplash photo of that sport's venue (night/lights preferred), save it as v2/bg/<sport>.jpg in the engine branch and commit it so it is reused.
+4. Before pushing, look at each final PNG and confirm 1, 2 and 3. If any fails, fix it before pushing.
+
 ## STYLE V2 (DEFAULT from 31 Oct 2026, GM loves it)
 - Use v2/v2.py post(bg, cutout, num, headline, meta, credit, tag, out, cutstyle, numstyle, bgf) for every News post. Older comp()/bigstat() layouts are retired.
 - Look: full-bleed dramatic stadium/crowd photo (v2/stadium_crowd.jpg or a fresh Unsplash night/crowd shot), big lime number, real player cutout in front of the number (bat/arm overlapping, Lara 400* idea), Title Case headline with key words in <em> (lime), flags via meta line, big logo top-left, sport pill top-right.
