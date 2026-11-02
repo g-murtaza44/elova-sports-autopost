@@ -1,0 +1,18 @@
+name: music
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  m:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p music; cd music
+          for t in "Volatile Reaction" "Movement Proposition" "Take a Chance" "Pump"; do
+            f="$(echo "$t" | tr ' ' '_').mp3"
+            curl -sfL -A "Mozilla/5.0" -o "$f" "https://incompetech.com/music/royalty-free/mp3-royaltyfree/${t// /%20}.mp3" && echo "ok $f" || rm -f "$f"
+          done
+          ls -la; cd ..
+          git config user.name elova-bot; git config user.email bot@users.noreply.github.com
+          git add music; git commit -m "royalty-free music (Kevin MacLeod, CC BY 4.0)" || true; git push
