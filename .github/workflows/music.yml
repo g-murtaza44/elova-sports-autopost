@@ -1,5 +1,8 @@
 name: music
-on: workflow_dispatch
+on:
+  push:
+    branches: [assets]
+    paths: [".github/workflows/music.yml"]
 permissions:
   contents: write
 jobs:
