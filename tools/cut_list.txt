@@ -1,4 +1,2 @@
-anton.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/anton.jpg
-havertz.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/havertz.jpg
-# v2
-berkoff.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/found/katharine_berkoff_0.jpg
+raphinha.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/raphinha.jpg
+luka77.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/luka77.jpg
