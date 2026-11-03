@@ -9,6 +9,7 @@ git clone -b engine https://github.com/g-murtaza44/elova-sports-autopost engine 
 Write playbook3/<batch>.py defining N = {"YYYY-MM-DD-slot": html, ...} then `posts.clear(); posts.update(N)`.
 Run: cd /home/claude/playbook3 && BATCH=<batch> FONTSET=archivo OUT=<dir> python3 make.py
 Layouts (see people.py / make.py):
+- RETIRED (old logo, never use): comp(), full(), panel(), bigstat(), cover(), listcard(), rulecard(). Use v2/v2.py post() only.
 - comp(bg_photo, sport, date, num, headline, cutout_png, credit, h, right, top, numsize) : real player cutout on a scene photo, big lime number. Preferred for any post about a person.
 - full(photo_in_commons, object_position, sport, date, num_or_None, headline, credit) : real match photo full bleed.
 - panel(photo_in_commons, sport, date, headline, credit, ph, pos, num) : landscape real photo on top, text below.
@@ -50,7 +51,7 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 
 ## STYLE V2 (DEFAULT from 31 Oct 2026, GM loves it)
 - Use v2/v2.py post(bg, cutout, num, headline, meta, credit, tag, out, cutstyle, numstyle, bgf) for every News post. Older comp()/bigstat() layouts are retired.
-- Look: full-bleed dramatic stadium/crowd photo (v2/stadium_crowd.jpg or a fresh Unsplash night/crowd shot), big lime number, real player cutout in front of the number (bat/arm overlapping, Lara 400* idea), Title Case headline with key words in <em> (lime), flags via meta line, big logo top-left, sport pill top-right.
+- Look: full-bleed dramatic photo of THE STORY'S SPORT venue from v2/bg/<sport>.jpg (see HARD RULES; stadium_crowd.jpg = cricket only), big lime number, real player cutout in front of the number (bat/arm overlapping, Lara 400* idea), Title Case headline with key words in <em> (lime), flags via meta line, big logo top-left, sport pill top-right.
 - Cutouts: do NOT use local rembg u2net (soft, odd edges). Add "name.jpg URL" lines to tools/cut_list.txt on the assets branch and push; workflow cut.yml runs BiRefNet (portrait + general) on GitHub and commits cut/<name>_birefnet-*.png. Pull, erase other people/objects with PIL if needed, check on a dark background.
 - Prefer action/celebration photos over posed ones; always check the original full photo, the best moment (raised bat etc.) may be outside the old crop.
 - No AI images of real, named athletes.
@@ -61,3 +62,5 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Files: main/records/YYYY-MM-DD-1.png/.txt (12:00 PKT) and -2 (20:00 PKT).
 - Content: world records recently broken (most recent first: last weeks/months; athletics, swimming, cricket, football, F1, weightlifting, esports-free). Verify each record in a reliable source. Big number = the record (time, score, count).
 - Same STYLE V2 template, tag pill e.g. "WORLD RECORD · ATHLETICS". Same photo and AI fallback rules.
+
+- Number must stay readable: the cutout may overlap only the edge of the number, never hide a digit. If a cutout has hard crop edges or other people that cannot be removed cleanly, use the scene-only layout (cutout 'none').
