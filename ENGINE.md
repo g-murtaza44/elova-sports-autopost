@@ -43,6 +43,14 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Other teams: research the current kit colours before prompting, then add a line here.
 
 
+
+## NO PLAYER PHOTO: LOCKED WAY (GM approved 3 Nov 2026, "lock, use such way in such cases")
+1. Real free photo of the player in the story's kit: use it (cutout).
+2. Cloudflare AI (1 Lucid Origin image per day, resets 05:00 PKT): spend it on the day's biggest post without a photo, as a back-view player in the right kit (name and number added in HTML). Save every AI image as a reusable kit in engine v2/kits/<team>_<sport>.jpg and reuse kits on later days before spending the daily quota again. Never waste the quota on retries or tests.
+3. Every other post without a usable photo where countries are involved: FLAG DESIGN. from flagbg import flag_bg; one country = flag_bg('et'); two national teams = flag_bg('nz','in') (first = left team, second = right team; split diagonally with a lime line). Pass it as the post() background with no cutout ('width:2px'), bgf='brightness(.58) saturate(1.05)', big number centred-left. Flag codes from flag-icons (pk, in, gb-eng, nz, au, za, lk, bd, us, et, ke, de, ca, ...).
+4. Club-only stories (no national team, e.g. Barcelona v Alaves): no flags and no club crests; use the sport's stadium background from v2/bg/.
+Never post an empty background when one of these is possible.
+
 ## HARD RULES (GM, 3 Nov 2026) - check EVERY post before pushing, News and Records alike
 1. LOGO: only the v2 logo (dark square with white E and lime bar, plus "ELOVA / SPORTS" text) exactly as v2/v2.py draws it. Never use the old playbook3 layouts (bigstat, listcard, rulecard, comp, full, panel, cover) because they carry the old logo. Every post, including lists and rules cards, is made with v2/v2.py.
 2. SOCIAL ICONS: the 4 white icons (Facebook, Instagram, X, LinkedIn) at the bottom of EVERY post. post() adds them; never remove or hide them.
