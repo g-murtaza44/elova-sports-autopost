@@ -1,2 +1,2 @@
-cunha @cf/leonardo/lucid-origin ok
-cunha @cf/black-forest-labs/flux-1-schnell ok
+jangoo @cf/leonardo/lucid-origin ok
+jangoo @cf/black-forest-labs/flux-1-schnell ok
