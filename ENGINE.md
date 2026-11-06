@@ -41,6 +41,7 @@ Every photo needs a credit line: author + licence. Never use agency/news photos 
 - Pakistan ODI/T20I: green shirt, light green at the top fading to dark green at the bottom, subtle star pattern on the chest, dark green trousers, dark green helmet. Name and number on the back in WHITE, bold block capitals. Pink kit only on announced breast-cancer days (e.g. 18 and 25 Oct 2026).
 - Shirt numbers: verified only (Arafat Minhas 90 per Wikipedia; Fakhar Zaman 39). If a number cannot be verified, put the surname only.
 - Other teams: research the current kit colours before prompting, then add a line here.
+- West Indies Test: plain white shirt and trousers (v2/kits/westindies_test_cricket.jpg); name on the back in maroon (#6E1A2B), font Graduate. Amir Jangoo number unverified, surname only.
 
 
 
