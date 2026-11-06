@@ -1,3 +1,4 @@
 neves.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/neves.jpg
 kohli_nz.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/kohli_nz.jpg
 valverde_rm.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/valverde_rm.jpg
+jangoo_ai.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/ai/jangoo_lucid-origin.jpg
