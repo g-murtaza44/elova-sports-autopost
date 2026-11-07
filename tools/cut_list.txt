@@ -1,8 +1,2 @@
-babar_test.jpg https://upload.wikimedia.org/wikipedia/commons/4/4c/Babar_Azam_during_the_2nd_Test_Match%2C_Sri_Lanka_vs_Pakistan%2C_SSC_Colombo%2C_July_2023.jpg
-tatum.jpg https://upload.wikimedia.org/wikipedia/commons/2/2c/Jayson_Tatum_%282018%29.jpg
-bolt_cel.jpg https://upload.wikimedia.org/wikipedia/commons/7/7e/Usain_Bolt_Olympics_Celebration.jpg
-serena_ao.jpg https://upload.wikimedia.org/wikipedia/commons/2/27/Serena_Williams_at_the_Australian_Open_2015.jpg
-djokovic_serve.jpg https://upload.wikimedia.org/wikipedia/commons/2/2c/Novak_Djokovic_Practicing_Tennis_04.jpg
-lara_bat.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/engine/commons/lara.jpg
-messi_arg.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/engine/commons/messi.jpg
-phelps_rio.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/engine/commons/phelps.jpg
+ronaldo_por.jpg https://upload.wikimedia.org/wikipedia/commons/4/4a/Argentine_-_Portugal_-_Cristiano_Ronaldo.jpg
+afridi_pk.jpg https://upload.wikimedia.org/wikipedia/commons/4/48/Shahid_Afridi_2010-cropped.jpg
