@@ -1,6 +1,1 @@
-neves.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/neves.jpg
-kohli_nz.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/kohli_nz.jpg
-valverde_rm.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/valverde_rm.jpg
-jangoo_ai.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/ai/jangoo_lucid-origin.jpg
-antonelli_cel.jpg https://upload.wikimedia.org/wikipedia/commons/c/cd/2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Post_Race_Celebration.jpg
-antonelli_mel.jpg https://upload.wikimedia.org/wikipedia/commons/7/79/Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A7923%29_cropped.jpg
+antonelli_cel.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/anton_crop.jpg
