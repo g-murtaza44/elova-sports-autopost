@@ -1,2 +1,2 @@
-norris_zandvoort.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/found/lando_norris_podium_0.jpg
-lefee_safc.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/found/enzo_le_fee_sunderland_1.jpg
+norris_zandvoort.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/ebbdeda/found/lando_norris_podium_0.jpg
+lefee_safc.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/835953f/found/enzo_le_fee_sunderland_1.jpg
