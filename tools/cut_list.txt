@@ -1,2 +1,3 @@
-wirtz_ger26.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/f886e8d/found/florian_wirtz_germany_1.jpg
-yamal_esp26.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/f886e8d/found/lamine_yamal_spain_3.jpg
+curzan_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/claire_curzan_1.jpg
+molchanov_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/alexey_molchanov_freediver_2.jpg
+djuraev_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/akbar_djuraev_weightlifter_2.jpg
