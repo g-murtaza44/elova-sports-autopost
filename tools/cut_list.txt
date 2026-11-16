@@ -1,3 +1,2 @@
-curzan_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/claire_curzan_1.jpg
-molchanov_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/alexey_molchanov_freediver_2.jpg
-djuraev_wr.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/37c3ecb/found/akbar_djuraev_weightlifter_2.jpg
+arshdeep_ind.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/8591c94/found/arshdeep_singh_4.jpg
+andreeva_wta.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/8591c94/found/mirra_andreeva_0.jpg
