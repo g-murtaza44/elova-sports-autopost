@@ -1,1 +1,2 @@
-shelton.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/shelton.jpg
+babar_test.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/babar_test.jpg
+vvd_lfc.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/vvd_lfc.jpg
