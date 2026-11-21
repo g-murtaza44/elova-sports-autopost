@@ -1,2 +1,2 @@
-babar_test.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/babar_test.jpg
-vvd_lfc.jpg https://raw.githubusercontent.com/g-murtaza44/elova-sports-autopost/assets/src/vvd_lfc.jpg
+vvd_m2.jpg https://upload.wikimedia.org/wikipedia/commons/7/7a/Virgil_van_Dijk_04012026_%282%29.jpg
+vvd_m1.jpg https://upload.wikimedia.org/wikipedia/commons/4/41/Virgil_van_Dijk_04012026_%281%29.jpg

@@ -9,6 +9,6 @@ for m in M:
     for name,url in jobs:
         src=f'/tmp/{name}'
         if not os.path.exists(src):
-            urllib.request.urlretrieve(urllib.request.Request(url,headers={'User-Agent':'ElovaBot/1.0'}).full_url,src)
+            open(src,'wb').write(urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'ElovaSportsBot/1.0 (https://github.com/g-murtaza44/elova-sports-autopost)'})).read())
         im=Image.open(src).convert('RGB')
         remove(im,session=s,post_process_mask=True).save(f'cut/{os.path.splitext(name)[0]}_{m}.png'); print(m,name)
