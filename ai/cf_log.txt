@@ -1,2 +1,4 @@
-gouiri @cf/leonardo/lucid-origin ok
-gouiri @cf/black-forest-labs/flux-1-schnell ok
+shah_ind @cf/leonardo/lucid-origin ok
+shah_ind @cf/black-forest-labs/flux-1-schnell ok
+shah_nep @cf/leonardo/lucid-origin ok
+shah_nep @cf/black-forest-labs/flux-1-schnell ok
