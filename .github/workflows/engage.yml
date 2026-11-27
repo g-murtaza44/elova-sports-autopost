@@ -1,0 +1,24 @@
+name: engage-test
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run: {description: "1 = print only, 0 = really act", default: "1"}
+  # schedule:   # enable ONLY after a clean test run on the test account
+  #   - cron: "34 7,15 * * *"   # 12:34 and 20:34 PKT
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install playwright && playwright install --with-deps chromium
+      - run: python engage.py
+        env:
+          DRY_RUN: ${{ inputs.dry_run || '1' }}
+          IG_SESSIONID: ${{ secrets.IG_SESSIONID }}
+          IG_CSRF: ${{ secrets.IG_CSRF }}
+          IG_DS_USER_ID: ${{ secrets.IG_DS_USER_ID }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
