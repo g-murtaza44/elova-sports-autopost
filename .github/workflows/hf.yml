@@ -11,7 +11,9 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
-      - run: |
+      - env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
           pip install -q gradio_client
           if [ -f tools/hf_jobs.txt ] && [ -f tools/hf_gen.py ]; then python3 tools/hf_gen.py || true; else python3 tools/hf_probe.py || true; fi
           cat ai/hf_log.txt || true
