@@ -1,6 +1,2 @@
-rohail pulid ok
-rohail photomaker FAIL RuntimeError
-rohail instantid ok
-hasan pulid ok
-hasan photomaker FAIL You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens
-hasan instantid FAIL 'You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens'
+lay_rohail pulid ok
+lay_hasan pulid ok
