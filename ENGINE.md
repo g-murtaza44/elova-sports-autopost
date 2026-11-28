@@ -87,3 +87,23 @@ Never post an empty background when one of these is possible.
 - Same STYLE V2 template, tag pill e.g. "WORLD RECORD · ATHLETICS". Same photo and AI fallback rules.
 
 - Number must stay readable: the cutout may overlap only the edge of the number, never hide a digit. If a cutout has hard crop edges or other people that cannot be removed cleanly, use the scene-only layout (cutout 'none').
+
+<!-- INSIGHTS START -->
+## PERFORMANCE INSIGHTS (auto, Metricool)
+Date: 2026-11-28. Window: 14-28 Nov, 62 feed posts, account is tiny (about 37 followers). Every signal below is weak.
+- Reach per post: median about 4, best 20 (Pakistan Test debut post, 14 Nov). Comments: 0 on all 62 posts. Likes 0-4.
+- Biggest caveat: reach falls with post age in the data (14-15 Nov posts 8-20, 26-27 Nov posts 1-3), so recent posts are not truly worse. Re-check after a week.
+DO MORE OF (weak signal):
+- Pakistan cricket: 3 of the top 6 posts by reach (Saqib Khan 7 wickets, Shakeel 97, U19 semi).
+- England and Nations League football on match day: 3 of the top 8 (England v Croatia, Spain v England, Germany v Serbia).
+DO LESS OF / NO EVIDENCE:
+- Record posts and news posts reach the same on average (about 4.6 each), so no reason to cut either.
+- Posts at 17:00 PKT average lowest (about 4.1 vs 4.4 to 5.1 for other slots), but they are also the newest each day, so not conclusive.
+BEST HOURS (Metricool audience activity, Asia/Karachi): 10:00, 11:00, 12:00; secondary peak 18:00. Weekdays beat weekends.
+- Current slots 07:00 and 15:00 sit far from the peaks. Test moving one to 10:00-12:00 and one to 18:00.
+CAPTION RULE OF THUMB:
+- Question endings brought 0 comments in 40+ posts, so do not rely on the closing question for engagement. Keep it only if it reads naturally.
+- Lead with the result and score, name the team or player in the first line (all top posts did).
+FOLLOWERS: 36 on 14 Nov, peak 38 on 15-17 Nov, 37 on 26 Nov. Net +1 in 14 days, no clear trend. Per-post follows were 0.
+LAYOUT: Metricool does not expose layout (LAYERED vs flag vs stadium), so no layout conclusion yet.
+<!-- INSIGHTS END -->
